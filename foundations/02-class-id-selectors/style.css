@@ -8,7 +8,7 @@
     font-size: 36px;
 }
 
-.imClass.num3 { /* class selector */
+.imClass.num3 { /* chained class selector */
     font-size: 24px;
 }
 
