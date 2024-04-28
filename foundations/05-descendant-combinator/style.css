@@ -1,0 +1,16 @@
+/* Type Selector: selects HTML element based on type. ex: p */
+/* Class Selector: name for an HTML element, may be multiple, ex: class="myClass myClass2" */
+/* ID Selector: unique ID of an HTML element, only one. ex: id="myID" */
+
+/* Grouping Selector: two elements with different classes that share some styles. ex: .element1, .element2 {} */
+/* Chaining Selector: two elements with a shared class and with one unique class. To apply a style...
+to only one element, chain it. ex: .shared.unique1 {} */
+/* Descendant Combinator: styles an element that is nested under another element. ex: .ancestor .contents {}.
+This only styles elements with class .contents that are nested under elements with class .ancestor. */
+
+div p { /* descendant combinator using types */
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
