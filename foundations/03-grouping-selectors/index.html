@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
+  <!-- HEAD-->
   <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grouping Selectors</title>
     <link rel="stylesheet" href="style.css">
+
   </head>
+
+  <!-- BODY -->
   <body>
-    <button>Click Me!</button>
-    <button>No, Click Me!</button>
+
+    <!-- I gave each element a shared and a unique class and styled them by chaining (".shared.unique1"), but I could have also given each element... -->
+    <!-- a single unique class and styled them in the CSS sheet by grouping them like ".unique1, .unique2" for the styles they shared. -->
+    <!-- Grouping is for when each element has a unique class, chaining is for when elements share a class and also have their own unique class. -->
+    <button class="shared unique1">Click Me!</button>
+    <button class="shared unique2">No, Click Me!</button>
+
   </body>
+
 </html>

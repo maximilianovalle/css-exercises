@@ -1,0 +1,14 @@
+.shared {   /* shared class */
+    font-size: 28px;
+    font-family: 'Helvetica', 'Times New Roman', sans-serif;
+}
+
+.shared.unique1 {  /* unique class, ".shared.unique1" is more specific, but ".unique1" also works */
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.shared.unique2 {   /* unique class, ".shared.unique2" is more specific, but ".unique2" also works */
+    background-color: yellow;
+}
