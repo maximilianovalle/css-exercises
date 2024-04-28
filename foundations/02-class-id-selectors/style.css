@@ -1,0 +1,19 @@
+.imClass { /* class selector */
+    background-color: lightpink;
+    font-family: 'Verdana', 'DejaVu Sans', 'sans-serif';
+}
+
+#imID {     /* id selector */
+    color: blue;
+    font-size: 36px;
+}
+
+.imClass.num3 { /* class selector */
+    font-size: 24px;
+}
+
+#imID2 {    /* id selector */
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
