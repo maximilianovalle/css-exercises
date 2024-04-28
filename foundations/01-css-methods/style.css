@@ -1,0 +1,20 @@
+/* linked externally to index.html */
+
+div {   /* type selectors */
+    background-color: red;  /* colors can be a keyword (ex: red), or HEX, RGB, or HSL values */
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;  /*  weight can be a keyword (ex: bold), or a value between 1-1000 (usually incremented by 100, like 100, 200, 300, ...) */
+}
+
+p {
+    background-color: green;
+    color: white;
+    font-size: 18px;
+}
+
+button {
+    background-color: orange;
+    font-size: 18px;
+}
