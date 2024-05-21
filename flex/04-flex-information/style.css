@@ -10,6 +10,33 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center; /* centers title */
+  margin-bottom: 32px;  /* adds space between title and items */
+}
+
+.info {
+  display: flex;  /* flexbox */
+  justify-content: space-evenly;  /* even spacing around all items  */
+  margin: 0px 15%;
+}
+
+.plant {
+  align-self: baseline; /* aligns items based on text on cross axis (vertically) */
+  flex-basis: 200px;  /* sets width of 200px for img + text */
+  margin: 0px 52px 52px 52px;
+}
+
+.plant .text {
+  text-align: center; /* centers text */
+}
+
+.plant img {
+  width: 70%;
+  height: auto;
+  display: block; /* allows auto margin to work */
+  margin-left: auto;  /* centers img */
+  margin-right: auto; /* centers img */
+  margin-bottom: 8px;
 }
 
 /* do not edit this footer */
